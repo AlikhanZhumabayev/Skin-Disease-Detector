@@ -57,5 +57,6 @@ If you want to add your own image, use the command above, replacing the names wi
 
 Then look at the image output for a classification and confidence percentage in the corner.
 
-
-[View a video explanation here](https://drive.google.com/file/d/1ZgRLV8yPxs6DLWi0-xYtOhdTVPOGEEEY/view?usp=sharing)
+Below is my video explanation.
+[View it on Google Drive](https://drive.google.com/file/d/1ZgRLV8yPxs6DLWi0-xYtOhdTVPOGEEEY/view?usp=sharing)
+[View it on Youtube](https://www.youtube.com/watch?v=Q6ZcGSOPV50)
