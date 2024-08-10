@@ -19,11 +19,12 @@ The ResNet-18 model was created using Jetson Nano and was trained on a dataset o
 
 Install Python3 and the Jetson Inference Library on the Nano beforehand. Download resnet18.onnx and model_best.pth.tar. 
 Download the resnet18.onnx and model_best.pth.tar. 
-resnet18.onnx - (https://drive.google.com/file/d/14lsZiDZLUtoeu9hASyWPzN8mf32Ivmvd/view?usp=sharing)
 
-model_best.pth.tar - (https://drive.google.com/file/d/1z7sbuV0in_uVGoX4jZQJyxKnzwsM3g9R/view?usp=sharing)
+[Download resnet18.onnx here](https://drive.google.com/file/d/14lsZiDZLUtoeu9hASyWPzN8mf32Ivmvd/view?usp=sharing)
 
-Download the data folder of images here: (https://drive.google.com/drive/folders/1L6r-kaU-LQEejztZtTQkJZ-iJnsnTZMj?usp=sharing)
+[Download model_best.pth.tar here](https://drive.google.com/file/d/1z7sbuV0in_uVGoX4jZQJyxKnzwsM3g9R/view?usp=sharing)
+
+[Download the data folder of images here](https://drive.google.com/drive/folders/1L6r-kaU-LQEejztZtTQkJZ-iJnsnTZMj?usp=sharing)
 
 Open the terminal and navigate to the classification directory:
    `$ cd jetson-inference/python/training/classification`
@@ -39,8 +40,6 @@ Use this command to process an image:
 ex: 
 
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt data/SkinDisease//test/Unknown_Normal/0_0_anhu_0216.jpeg normal.jpeg
-
-https://drive.google.com/file/d/1ZgRLV8yPxs6DLWi0-xYtOhdTVPOGEEEY/view?usp=sharing
 
 If you want to add your own image, add it do a directory under the test directory and use the command above, replacing the names with the directories and the name of your image.
 
