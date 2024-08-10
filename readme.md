@@ -27,9 +27,13 @@ Download the data folder of images here: (https://drive.google.com/drive/folders
 
 Open the terminal and navigate to the classification directory:
    `$ cd jetson-inference/python/training/classification`
+   
 Set the net and data variables as shown below:
-   $ NET=models/DiseaseModel
-   $ DATASET=data/SkinDisease
+
+   `$ NET=models/DiseaseModel`
+   
+   `$ DATASET=data/SkinDisease`
+   
 Use this command to process an image:
    imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt data/SkinDisease// (put test or train or val here) / (type) / (picture you want to check) (what you want it to be named).jpeg
 ex: 
