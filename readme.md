@@ -70,8 +70,6 @@ ex:
 
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt data/SkinDisease//test/Unknown_Normal/0_0_anhu_0216.jpeg normal.jpeg
 
-https://drive.google.com/file/d/1ZgRLV8yPxs6DLWi0-xYtOhdTVPOGEEEY/view?usp=sharing
-
 If you want to add your own image, add it do a directory under the test directory and use the command above, replacing the names with the directories and the name of your image.
 
 Then look at the image output for a classification and confidence percentage in the corner.
