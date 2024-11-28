@@ -1,6 +1,6 @@
 # Skin Disease Classification
 
- This model classifies skin conditions from images. It aims to differentiate between:
+ This model classifies skin conditions from images. It should differentiate between:
  
 -Acne
 
